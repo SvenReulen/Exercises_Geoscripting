@@ -10,7 +10,6 @@ dirdat <- "~/Wageningen/2.2 Geoscripting"
 createmap <- function(cou, lvl){
   map <- raster::getData("GADM", country = cou, level = lvl, path = dirdat)
   plot(map, bg = "grey", axes=T,col="red")
-  plot(map, add=TRUE, main = 'test')
   title(paste('Map of the following country:', cou))
 }
 
