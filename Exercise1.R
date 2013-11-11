@@ -1,12 +1,9 @@
 # Author: Sven Reulen
-# Date: 07-11-2013
+# Date: 11-11-2013
 # Dependencies: Set working directory, and define path by changing dirdat
 # Description: First exercise for the course Applied Geoscripting, plotting a map of a country using a function
 # Variables: dirdat = direction of data
 
-getwd()
-setwd("~/Wageningen/2.2 Geoscripting")
-#download.file("http://rasta.r-forge.r-project.org/rasta.zip", file.path(dirdat, "rasta_0.7.zip"))
 library(rasta)
 library(raster)
 dirdat <- "~/Wageningen/2.2 Geoscripting"

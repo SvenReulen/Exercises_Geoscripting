@@ -1,5 +1,5 @@
 # Author: Sven Reulen
-# Date: 07-11-2013
+# Date: 11-11-2013
 # Dependencies: 
 # Description: Third exercise for the course Applied Geoscripting. 
 #              Sample 30 points, retrieve the underlying temperature values, 
